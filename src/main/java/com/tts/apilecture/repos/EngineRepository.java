@@ -12,6 +12,7 @@ public interface EngineRepository extends CrudRepository<Engine, Long> {
 
     /*
     JPA - java persistence api. It's an abstraction layer that facilitates persistence.
+    This line is a query method
      */
 //    //@Query("")
 //    Optional<Engine> findEngineByCylinderAndHorsepower(Integer cylinder,
